@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="Змейка" Height="450" Width="800" Icon="/apple.png">
     <Canvas x:Name="canvas" KeyDown="gr_KeyDown" d:IsLocked="True">
-        <Image Source="C:\Users\User\source\repos\Курсрвой змейка\Курсрвой змейка\bin\Debug\background.png" Width="800" />
+        <Image Source="C:\Users\User\source\repos\WpfApp15\WpfApp15\background.png" Width="800" />
         <Ellipse VerticalAlignment="Top" HorizontalAlignment="Left" Margin="150,117.4,0,0" Visibility="Hidden" x:Name="elip" Fill="#FFF4F4F5" Height="20" Stroke="Black" Width="20" Grid.Row="1" d:IsLocked="True"/>
         <Ellipse VerticalAlignment="Top" HorizontalAlignment="Left" Visibility="Hidden" x:Name="food"  Fill="#FFF4F4F5" Height="22"  Width="22" d:IsLocked="True" />
         <Button x:Name="sg" Background="Green" Click="Start" FontWeight="Bold" Content="Start Game" Width="213" Visibility="Visible" Height="104" FontSize="36" FontFamily="Segoe UI Black" d:IsLocked="True" Margin="153,75.4,152.4,108.8" Grid.Row="1"/>

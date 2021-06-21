@@ -44,7 +44,7 @@ namespace WpfApp15
             canvas.Children.Add(snakeBody[index]);
 
         }
-        //Реализация тиков (для движения)
+        //Реализация движения
         public void Timer_Tick(object sender, EventArgs e)
         {
             for (int i = snakeBody.Count - 1; i >= 0; i--)
@@ -135,8 +135,8 @@ namespace WpfApp15
 
             elip.Fill = new SolidColorBrush(Colors.Green);
             elip.Visibility = Visibility.Visible;
-            food.Fill = new ImageBrush { ImageSource = new BitmapImage(new Uri( @"C:\Users\User\source\repos\WpfApp15\WpfApp15\bin\Debug\apple.png")) };
-           // food.Fill = new SolidColorBrush(Colors.Red);
+           // food.Fill = new ImageBrush { ImageSource = new BitmapImage(new Uri( @"C:\Users\User\source\repos\WpfApp15\WpfApp15\bin\Debug\apple.png")) };
+            food.Fill = new SolidColorBrush(Colors.Red);
             food.Visibility = Visibility.Visible;
             sg.Margin = new Thickness { Left = 1500, Top = 1500 };
             //sg.Visibility = Visibility.Hidden;
